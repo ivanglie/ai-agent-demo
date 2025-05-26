@@ -1,4 +1,4 @@
-# DeepSeek OpenAI Tool Calling Example
+# AI Agent Demo with DeepSeek
 
 Go application demonstrating tool calling with DeepSeek's API using the OpenAI Go client library.
 
@@ -20,9 +20,10 @@ cd ai-agent-demo
 go mod download
 ```
 
-Set up API key in `.env`:
+Set up API key:
 ```bash
-export DEEPSEEK_API_KEY=your_actual_api_key_here
+cp .env.example .env
+# Edit .env and add your real API key
 ```
 
 ## Usage
