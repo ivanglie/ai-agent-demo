@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "auto",
             "program": "${workspaceFolder}/main.go",
-            "env": {"DEEPSEEK_API_KEY": "your_api_key_here"}
+            "envFile": "${workspaceFolder}/.env"
         },
     ]
 }
